@@ -61,7 +61,7 @@ const Home = () => {
         />
       </section>
       <section className="px-6 py-6 md:px-12">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {filteredPrompts.length > 0 ? (
             filteredPrompts.map((prompt, key) => (
               <PromtCard
